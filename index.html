@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Simple To-Do List</h2>
+        <div class="input-container">
+            <input type="text" id="inp" placeholder="Add your task" onkeypress="clickTodo(event)">
+            <button class="add-btn" onclick="addTodo()">+</button>
+        </div>
+        <ul id="lists"></ul>
+    </div>
+
+</body>
+
+<script src="index.js"></script>
+
+</html>
